@@ -5,7 +5,7 @@ class Services extends Component {
     render() {
         return (
            <React.Fragment>
-               <h1 id="Heading">Services</h1>
+               <h1 id="Services-Heading">Services</h1>
               <Card/>
            </React.Fragment>
         )

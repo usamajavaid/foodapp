@@ -11,16 +11,18 @@ class Food extends Component {
 
         return (
             <React.Fragment>
-                <nav class="navbar navbar-expand-lg">
-                    <a className="navbar-brand" href="#"><img src={Logo} alt=""/>
-                    </a>
-                        <a href="#" class="text-decoration-none d-block px-1" style={{color:"#333",marginLeft:"1400px"}}>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="food-header">
+                    <a class="navbar-brand" href="/"><img src={Logo} alt=""/></a>
+                        <div class="navbar-nav" id="food-top-links">
+                        <a href="#" class="text-decoration-none d-block px-1" >
                             <i class="fa fa-user-circle" aria-hidden="true" id="food-header-link">
-                                <b style={{color:"#333",marginLeft:"10px"}}>Login</b></i>
+                                <b id="food-top-link-style"> Login</b></i>
                         </a>
                         <a href="#" class="text-decoration-none d-block px-1">
-                            <i class="fa fa-shopping-bag" aria-hidden="true" id="food-header-link"></i>
+                            <i class="fa fa-shopping-bag" aria-hidden="true" id="food-header-link">
+                                <b id="food-top-link-style"> Your Cart</b></i>
                         </a>
+                        </div>
                 </nav>
                 <div className="container-fluid">
                     <div className="row">
@@ -67,8 +69,8 @@ class Food extends Component {
                 </div>
 
                 <div class="parent right" onclick="">
-                    <div class="child bg-two">
-                    <a href="#">Islamabad</a>
+                    <div class="child bg-four">
+                    <a href="#">Faisalabad</a>
                     </div>
                 </div>
 
@@ -79,8 +81,8 @@ class Food extends Component {
                 </div>
 
                 <div class="parent right" onclick="">
-                    <div class="child bg-four">
-                    <a href="#">Gujranwala</a>
+                    <div class="child bg-two">
+                    <a href="#">Islamabad</a>
                     </div>
                 </div>
 

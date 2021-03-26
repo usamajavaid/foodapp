@@ -13,7 +13,7 @@ class Card extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="conatiner">
+                <div className="conatiner" id="card-container">
                     <div className="row">
                     <div className="col-lg-3 col-md-6">
                             <div  id="Page2 "> 
