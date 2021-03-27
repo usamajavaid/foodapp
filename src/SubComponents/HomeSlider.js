@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Slider01 from '../images/slider-01.jpg';
 import Slider02 from '../images/slider-02.jpg';
 import Slider03 from '../images/slider-03.jpg';
-// import '../Style/slider.css';
+import '../Style/style.css';
  class HomeSlider extends Component {
     render() {
         return (
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
                 <div class="carousel-inner">
-                <ol class="carousel-indicators" style={{marginTop:"500px"}}>
+                <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>

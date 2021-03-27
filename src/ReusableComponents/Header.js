@@ -15,7 +15,10 @@ class Header extends Component {
                             <a class="navbar-brand" href="/">
                                 <img src={Logo} alt="" />
                             </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation" style={{marginRight:"50px"}}>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                    data-target="#navbars-rs-food" aria-controls="navbars-rs-food" 
+                                    aria-expanded="false" aria-label="Toggle navigation" id="toggle-btn"
+                            >
                             <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbars-rs-food">

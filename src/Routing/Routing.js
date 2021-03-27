@@ -11,6 +11,7 @@ import Cargo from '../Services/Cargo';
 import Cab from '../Services/Cab';
 import Estore from '../Services/Estore';
 import Signup from '../ReusableComponents/Signup';
+import Foodgallery from '../SubComponents/Foodgallery';
 class Routing extends Component {
     render() {
         return (
@@ -68,6 +69,11 @@ class Routing extends Component {
                             exact
                             path="/ReusableComponents/Signup" 
                             render={props=><Signup {...props}/>}
+                        />
+                        <Route 
+                            exact
+                            path="/SubComponents/Foodgallery" 
+                            render={props=><Foodgallery {...props}/>}
                         />
                         
                     </Switch>

@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
-import Logo from '../images/applogo.png';
 import '../Style/food.css';
 import TextField from '@material-ui/core/TextField';
 import Foodwithoutbg from '../images/foodwithoutbg.png';
 import MobilePic from '../images/mobile-phone.png';
 import Explainationpage from '../ReusableComponents/Explainationpage';
 import Footer from '../ReusableComponents/Footer';
+import Foodheader from '../ReusableComponents/Foodheader';
+import {withRouter} from 'react-router-dom';
 class Food extends Component {
+    deliverybtn(login) {
+        this.props.history.push(login);
+      }
     render() {
 
         return (
             <React.Fragment>
-                <nav class="navbar navbar-expand-lg">
-                    <a className="navbar-brand" href="#"><img src={Logo} alt=""/>
-                    </a>
-                        <a href="#" class="text-decoration-none d-block px-1" style={{color:"#333",marginLeft:"1400px"}}>
-                            <i class="fa fa-user-circle" aria-hidden="true" id="food-header-link">
-                                <b style={{color:"#333",marginLeft:"10px"}}>Login</b></i>
-                        </a>
-                        <a href="#" class="text-decoration-none d-block px-1">
-                            <i class="fa fa-shopping-bag" aria-hidden="true" id="food-header-link"></i>
-                        </a>
-                </nav>
+                <Foodheader/>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
@@ -50,7 +44,9 @@ class Food extends Component {
                             /> 
                         </div>
                         <div className="col-lg-6 col-sm-4 col-xs-4">
-                            <button type="button" className="delivery-fill" id="food-delivery-btn">
+                            <button type="button" className="delivery-fill" id="food-delivery-btn"
+                                    onClick={() => this.deliverybtn('/SubComponents/Foodgallery') }
+                            >
                                 Delivery
                             </button>
                         </div>
@@ -67,8 +63,8 @@ class Food extends Component {
                 </div>
 
                 <div class="parent right" onclick="">
-                    <div class="child bg-two">
-                    <a href="#">Islamabad</a>
+                    <div class="child bg-four">
+                    <a href="#">Faisalabad</a>
                     </div>
                 </div>
 
@@ -79,8 +75,8 @@ class Food extends Component {
                 </div>
 
                 <div class="parent right" onclick="">
-                    <div class="child bg-four">
-                    <a href="#">Gujranwala</a>
+                    <div class="child bg-two">
+                    <a href="#">Islamabad</a>
                     </div>
                 </div>
 
@@ -142,4 +138,4 @@ class Food extends Component {
         )
     }
 }
-export default Food;
+export default withRouter(Food);
