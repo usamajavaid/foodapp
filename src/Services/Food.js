@@ -1,29 +1,17 @@
 import React, { Component } from 'react';
-import Logo from '../images/applogo.png';
 import '../Style/food.css';
 import TextField from '@material-ui/core/TextField';
 import Foodwithoutbg from '../images/foodwithoutbg.png';
 import MobilePic from '../images/mobile-phone.png';
 import Explainationpage from '../ReusableComponents/Explainationpage';
 import Footer from '../ReusableComponents/Footer';
+import Foodheader from '../ReusableComponents/Foodheader';
 class Food extends Component {
     render() {
 
         return (
             <React.Fragment>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="food-header">
-                    <a class="navbar-brand" href="/"><img src={Logo} alt=""/></a>
-                        <div class="navbar-nav" id="food-top-links">
-                        <a href="#" class="text-decoration-none d-block px-1" >
-                            <i class="fa fa-user-circle" aria-hidden="true" id="food-header-link">
-                                <b id="food-top-link-style"> Login</b></i>
-                        </a>
-                        <a href="#" class="text-decoration-none d-block px-1">
-                            <i class="fa fa-shopping-bag" aria-hidden="true" id="food-header-link">
-                                <b id="food-top-link-style"> Your Cart</b></i>
-                        </a>
-                        </div>
-                </nav>
+                <Foodheader/>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
