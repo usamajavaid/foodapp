@@ -6,7 +6,11 @@ import MobilePic from '../images/mobile-phone.png';
 import Explainationpage from '../ReusableComponents/Explainationpage';
 import Footer from '../ReusableComponents/Footer';
 import Foodheader from '../ReusableComponents/Foodheader';
+import {withRouter} from 'react-router-dom';
 class Food extends Component {
+    deliverybtn(login) {
+        this.props.history.push(login);
+      }
     render() {
 
         return (
@@ -40,7 +44,9 @@ class Food extends Component {
                             /> 
                         </div>
                         <div className="col-lg-6 col-sm-4 col-xs-4">
-                            <button type="button" className="delivery-fill" id="food-delivery-btn">
+                            <button type="button" className="delivery-fill" id="food-delivery-btn"
+                                    onClick={() => this.deliverybtn('/SubComponents/Foodgallery') }
+                            >
                                 Delivery
                             </button>
                         </div>
@@ -132,4 +138,4 @@ class Food extends Component {
         )
     }
 }
-export default Food;
+export default withRouter(Food);

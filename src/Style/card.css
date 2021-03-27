@@ -1,16 +1,29 @@
 #Page2{
   width: 100%;
   outline:  none;
-  
 }
 @media only screen and (max-width: 800px) {
   #card-container{
-      margin-left: -80px;
+      margin-right: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #card-container{
+    margin-left: -27px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  #card-container{
+    margin-left: -10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #card-container{
+    margin-left: -30px;
   }
 }
 .flip-card {
     margin-top: 50px;
-    margin-left: 50px;
     background-color: transparent;
     width: 430px;
     height: 270px;

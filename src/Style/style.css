@@ -263,7 +263,6 @@ button:focus{
 -------------------------------------------------------------------*/
 .top-navbar{
 	position: relative;
-	/* z-index: 10; */
 }
 
 .top-navbar .navbar{
@@ -350,7 +349,6 @@ button:focus{
     color: white;
     z-index: 9;
     text-align: left;
-    
   }
   .gtco-container {
     max-width: 1140px;
@@ -920,7 +918,7 @@ footer {
 .social-links li a:hover {
 	text-decoration:none;
 }
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 800px){
     .social-links li{ margin-left: 20px; }
 }
 .icon-circled {
