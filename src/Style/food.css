@@ -1,31 +1,4 @@
-#food-header{
-    position: fixed;
-	width: 100%;
-    transition: height .3s ease-out,  .3s ease-out, box-shadow .3s ease-out;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	z-index: 100;
-}
-#food-header-link{
-    color:#d65106;
-    margin-left: 10px;  
-}
-
-#food-top-links{
-    margin-left: 1400px;
-}
-#food-top-link-style{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    color: rgb(92, 91, 91);
-}
-@media only screen and (max-width: 800px) {
-    #food-top-links{
-        margin-left: 0px;
-    }
- }
-
- #food-delivery-btn{
+#food-delivery-btn{
     margin-top: 10px;
     border-radius: 0px;
     border: 1px solid #d65106;
@@ -297,4 +270,82 @@
     transition: all .3s;
     border-bottom: solid 2px blue;
 }
+#tabs-style{
+    color: #d65106;
+}
+#free-img-card{
+    max-width: 300px;
+    height: 180px !important;
+    cursor: pointer;
+}
+#marginfortop{
+    margin-top: 100px;
+}
+#marginforbootom{
+    margin-top: -100px;
+}
+.blook-heading{
+    width:auto;
+    position: absolute;
+    bottom: 100px;
+    background: rgb(215,15,100);
+    color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.time-block{
+    width:auto;
+    position: absolute;
+    background: white;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 221px;
+    bottom: 130px;
+}
+#menu-detail-heading{
+    color: rgb(53, 52, 52);
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 0.800;
+    font-weight: 50;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu-detail-paragraph{
+    color: rgb(122, 122, 122);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-rating-star{
+    color: rgb(242, 198, 77);
+    font-size: medium;
+    margin-left: 10px;
+}
+#rating-text{
+    color: rgb(122, 122, 122);
+}
 
+@media only screen and (max-width: 800px) {
+    #right-menu-card{
+        margin-top: 200px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #marginfortop{
+        margin-left: 60px;
+    }
+ }

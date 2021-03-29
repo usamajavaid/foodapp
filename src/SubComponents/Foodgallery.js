@@ -1,126 +1,194 @@
 import React, { Component } from 'react';
 import Foodheader from '../ReusableComponents/Foodheader';
 import Slider from 'react-slick';
-import Sliderpic1 from '../images/432.jpg';
+import Sliderpic1 from '../images/20817630.jpg';
+import Sliderpic2 from '../images/289.jpg';
+import Sliderpic3 from '../images/285.jpg';
+import Sliderpic4 from '../images/444.jpg';
+import Sliderpic5 from '../images/489.jpg';
+import Sliderpic6 from '../images/20940921.jpg';
+import Sliderpic7 from '../images/11775.jpg';
+import Sliderpic8 from '../images/432.jpg';
+import Sliderpic9 from '../images/256.jpg';
+import Freepic1 from '../images/3864210.jpg';
+import Freepic2 from '../images/3864211.jpg';
 import '../Style/food.css';
+import '../Style/style.css';
 class Foodgallery extends Component {
     render() {
         return (
             <React.Fragment>
                 <Foodheader/>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="pills-home-tab" 
-                            data-toggle="pill" href="#pills-home" role="tab" 
-                            aria-controls="pills-home" aria-selected="true"
-                        >
-                            Delivery
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                    <div className="nav-img-tab">
-                        <a class="nav-link" id="pills-profile-tab" 
-                            data-toggle="pill" href="#pills-profile" 
-                            role="tab" aria-controls="pills-profile" 
-                            aria-selected="false"
-                        >
-                            
-                                Pick up
-                            
-                        </a>
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" 
+                                        data-toggle="tab" href="#nav-home" role="tab" 
+                                        aria-controls="nav-home" aria-selected="true"
+                                        id="tabs-style"
+                                    >
+                                        Delivery
+                                    </a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" 
+                                        data-toggle="tab" href="#nav-profile" role="tab" 
+                                        aria-controls="nav-profile" aria-selected="false"
+                                        id="tabs-style"
+                                    >
+                                        Shops
+                                    </a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" 
+                                        data-toggle="tab" href="#nav-contact" role="tab" 
+                                        aria-controls="nav-contact" aria-selected="false"
+                                        id="tabs-style"
+                                    >
+                                        Resturants
+                                    </a>
+                                </div>
+                            </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" 
+                                    aria-labelledby="nav-home-tab"
+                                >
+                                    <div className="container" id="marginfortop">
+                                    <div className="row">
+                                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div id="Wraper9">
+                                            <Slider
+                                                speed ={500}
+                                                slidesToShow={4}
+                                                slidesToScroll={1}
+                                                infinite={true}
+                                                autoplay={false}
+                                                
+                                            >
+                                    
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic1} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic2} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic3} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic4} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic5} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic6} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic7} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic8} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div  id="Page2 ">
+                                                <div className="img-card"> 
+                                                    <img src={Sliderpic9} id="slider-img" alt=""/>
+                                                </div>
+                                            </div>
+                                            
+                                    </Slider>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div className="container" id="marginforbootom">
+                                    <div className="row">
+                                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <h1 id="h1-style">Free Delivery Deals</h1>
+                                        </div>
+                                    </div>
+                                    <br></br>
+                                    <div className="row">
+                                        <div className="col-lg-4 col-sm-4 col-xs-4 col-md-4">
+                                        <div className="container" id="free-img-card">
+                                            <img src={Freepic1} alt="Food"/>
+                                            <div className="blook-heading">
+                                                <p style={{marginBottom:"0px"}}>Free Delivery</p>
+                                            </div>
+                                            <div className="time-block">
+                                                <p>35<br></br>Min</p>
+                                            </div>
+                                            <h1 id="menu-detail-heading">Special Barbecue 
+                                                <i id="menu-rating-star" 
+                                                    class="fa fa-star" aria-hidden="true"
+                                                >
+                                                    <b id="rating-text"> 3.8/5(3K+)</b>
+                                                </i>
+                                            </h1>
+                                            <p id="menu-detail-paragraph"><b style={{color:"#4d5bd1"}}> $$$ </b> 8 pieces
+                                                 Malhi Boti 4 Peaces Kabab 1.5 Litre Drink.
+                                            </p>
+                                            <p><b>Free</b> delivery</p>
+                                        </div> 
+                                        </div>
+                                        <div className="col-lg-4 col-sm-4 col-xs-4 col-md-4" id="right-menu-card">
+                                        <div className="container" id="free-img-card">
+                                            <img src={Freepic2}  alt="Food"/>
+                                            <div className="blook-heading">
+                                                <p style={{marginBottom:"0px"}}>Free Delivery</p>
+                                            </div>
+                                            <div className="time-block">
+                                                <p>30<br></br>Min</p>
+                                            </div>
+                                            <h1 id="menu-detail-heading">Fast food  
+                                                <i id="menu-rating-star" 
+                                                    class="fa fa-star" aria-hidden="true"
+                                                >
+                                                    <b id="rating-text"> 3.9(4K+)</b>
+                                                </i>
+                                            </h1>
+                                            <p id="menu-detail-paragraph"><b style={{color:"#4d5bd1"}}> $$$ </b> Grill Burger,
+                                                 Fries and half Litre Drink.
+                                            </p>
+                                            <p><b>Free</b> delivery</p>
+                                        </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" 
+                                    aria-labelledby="nav-profile-tab"
+                                >
+                                   <h1 style={{marginTop:"300px",textAlign:"center"}}>Coming to your area soon</h1>
+                                <p style={{textAlign:"center"}}>We're working our way to your neighborhood. 
+                                    In the meantime, check out the restaurants near you.
+                                </p>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" 
+                                    role="tabpanel" aria-labelledby="nav-contact-tab"
+                                >
+                                    <h1 style={{marginTop:"300px",textAlign:"center"}}>Coming to your area soon</h1>
+                                <p style={{textAlign:"center"}}>We're working our way to your neighborhood. 
+                                    In the meantime, check out the restaurants near you.
+                                </p>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-contact-tab" 
-                            data-toggle="pill" href="#pills-contact" 
-                            role="tab" aria-controls="pills-contact" 
-                            aria-selected="false"
-                        >
-                        Resturants
-                    </a>
-                    </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" 
-                            role="tabpanel" aria-labelledby="pills-home-tab"
-                        >
-                           <div className="container" >
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div id="Wraper9">
-                    <Slider
-                        speed ={500}
-                        slidesToShow={4}
-                        slidesToScroll={1}
-                        infinite={false}
-                        autoplay={false}
-                        
-                    >
-                       
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            <div  id="Page2 ">
-                                <div className="img-card"> 
-                                    <img src={Sliderpic1} id="slider-img" alt=""/>
-                                </div>
-                            </div>
-                            
-                    </Slider>
-                </div>
-                </div>
-                </div>
-                </div>
-                        </div>
-                    <div class="tab-pane fade" id="pills-profile" 
-                        role="tabpanel" aria-labelledby="pills-profile-tab"
-                    >
-                        Pick up
                     </div>
-                    <div class="tab-pane fade" id="pills-contact" 
-                    role="tabpanel" aria-labelledby="pills-contact-tab"
-                    >
-                        Shops
-                    </div>
-                    </div>
-                </div>
-                </div>
                 </div>
                 
             </React.Fragment>

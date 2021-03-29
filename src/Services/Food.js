@@ -12,7 +12,6 @@ class Food extends Component {
         this.props.history.push(login);
       }
     render() {
-
         return (
             <React.Fragment>
                 <Foodheader/>
