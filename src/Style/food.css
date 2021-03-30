@@ -1,31 +1,4 @@
-#food-header{
-    position: fixed;
-	width: 100%;
-    transition: height .3s ease-out,  .3s ease-out, box-shadow .3s ease-out;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	z-index: 100;
-}
-#food-header-link{
-    color:#d65106;
-    margin-left: 10px;  
-}
-
-#food-top-links{
-    margin-left: 1400px;
-}
-#food-top-link-style{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    color: rgb(92, 91, 91);
-}
-@media only screen and (max-width: 800px) {
-    #food-top-links{
-        margin-left: 0px;
-    }
- }
-
- #food-delivery-btn{
+#food-delivery-btn{
     margin-top: 10px;
     border-radius: 0px;
     border: 1px solid #d65106;
@@ -151,16 +124,6 @@
 #colunm-style{
     margin-left: 200px;
 }
-/* Media Queries */
-@media screen and (max-width: 960px) {
-    .parent {width: 100%; margin: 20px 0px}
-    .wrapper {padding: 20px 20px;}
-}
-
-@media screen and (max-width: 960px) {
-    #colunm-style {margin-left: 0;}
-}
-
 .flex {
     display: flex;
     align-items: center;
@@ -225,13 +188,31 @@
        max-height: 600px;
        margin-top: -100px;
    }
+
+/* Media Queries */
+
    @media screen and (max-width: 960px) {
     #download-food-app {
         max-width:fit-content;
         max-height: fit-content;
         
     }
+}
+@media screen and (max-width: 960px) {
+    #download-img {
+        max-width: 300px;
+       max-height: 300px;
+       margin-top: 50px;
+        
+    }
+}
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+    .wrapper {padding: 20px 20px;}
+}
 
+@media screen and (max-width: 960px) {
+    #colunm-style {margin-left: 0;}
 }
 /*------------------------------------------------------------------
                         Food Gallery
@@ -239,10 +220,14 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
   #Wraper9{
-    width: 1270px;
+    width: 1300px;
     outline:  none;
-    height: 430px;
     
+  }
+  @media only screen and (max-width: 414px) {
+    #Wraper9{
+        width: 250px;
+    }
   }
   .slick-prev:before{
     background: #d65106;
@@ -259,7 +244,6 @@
 .slick-next:before{
     background: #d65106;
     color: #0e191d;
-    
     height: 50px;
     width: 50px;
     position: absolute;
@@ -280,6 +264,11 @@
     height: 200px;
     perspective: 1000px;
   }
+  @media only screen and (max-width: 414px) {
+    .img-card{
+        width: 250px;
+    }
+  }
   #slider-img{
     max-width: 100%;
     max-height: 100%;
@@ -297,4 +286,167 @@
     transition: all .3s;
     border-bottom: solid 2px blue;
 }
+#tabs-style{
+    color: #d65106;
+}
+#free-img-card{
+    max-width: 300px;
+    height: 180px !important;
+    cursor: pointer;
+}
+#marginfortop{
+    margin-top: 100px;
+}
+#marginforbootom{
+    margin-top: -100px;
+}
+.blook-heading{
+    width:auto;
+    position: absolute;
+    bottom: 100px;
+    background: rgb(215,15,100);
+    color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.time-block{
+    width:auto;
+    position: absolute;
+    background: white;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 1.0rem;
+    line-height: 0.800;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 221px;
+    bottom: 130px;
+}
+#menu-detail-heading{
+    color: rgb(53, 52, 52);
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 0.800;
+    font-weight: 50;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu-detail-paragraph{
+    color: rgb(122, 122, 122);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu-rating-star{
+    color: rgb(242, 198, 77);
+    font-size: medium;
+    margin-left: 10px;
+}
+#rating-text{
+    color: rgb(122, 122, 122);
+}
+#food-gallery-center-content{
+    margin-top: 200px;
+}
+#delivry-content{
+    justify-content: left;
+    text-align: left;
+}
+#right-menu-card{
+    margin-left: -200px;
+}
+ #food-gallery-content{
+     position: absolute;
+     margin-top: 200px;
+     margin-left: 300px;
+ }
+#slider-row{
+    margin-top: 150px;
+}
+#free-delivery-content-row{
+    margin-left: -200px;
+}
+#food-shops-heading{
+    margin-top: 300px;
+    font-size: 1.9rem;
+    color: rgb(92, 87, 87);
+    text-align: center;
+}
+#food-shops-paragraph{
+    color: rgb(92, 87, 87);
+    font-size: medium;
+    text-align: center;
+}
+.permotion-cards{
+    margin-left: -10px;
+    margin-top: 80px;
+    background-color: transparent;
+    width: 260px;
+    height: 150px;
+}
+#promo-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+#food-footer{
+    position: absolute;
+    margin-top: 2500px;
+}
+/* Media Queries */
 
+
+  /* @media only screen and (max-width: 800px) {
+    #Page2{
+        width: 300px !important;
+    }
+  } */
+  @media only screen and (max-width: 800px) {
+    #food-footer{
+        margin-top: 4500px;
+    }
+ }
+
+@media only screen and (max-width: 800px) {
+    #free-delivery-content-row{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #food-gallery-content{
+        margin-left: 0px;
+    }
+ }
+ @media only screen and (max-width: 414px) {
+    #slider-row{
+        margin-left: 35px;
+        width: 414px;
+    }
+ }
+ @media only screen and (max-width: 414px) {
+    #second-slider-row{
+        margin-left: 35px;
+        width: 414px;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #right-menu-card{
+        margin-top: 200px;
+        margin-left: 0;
+    }
+ }
+ @media only screen and (max-width: 800px) {
+    #marginfortop{
+        margin-left: 60px;
+    }
+ }
