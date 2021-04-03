@@ -7,14 +7,14 @@ class Cabheader extends Component {
             <React.Fragment>
                <header className="header">
                     <nav className="navbar navbar-expand-lg fixed-top py-3">
-                        <div className="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">
+                        <div className="container"><a href="/" class="navbar-brand text-uppercase font-weight-bold">
                             <img src={Logo} alt="" /></a>
-                            <button type="button" data-toggle="collapse" 
+                            <button id="header-toggle-btn" type="button" data-toggle="collapse" 
                                 data-target="#navbarSupportedContent" 
                                 aria-controls="navbarSupportedContent" 
                                 aria-expanded="false" aria-label="Toggle navigation" 
                                 className="navbar-toggler navbar-toggler-right">
-                                <i className="fa fa-bars">LogIn</i>
+                                Login <i className="fa fa-bars"></i>
                             </button>
                             
                             <div id="navbarSupportedContent" class="collapse navbar-collapse">

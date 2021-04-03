@@ -9,7 +9,7 @@ class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <div style={{overflowX:"hidden"}}>
+                <div style={{overflowX:"hidden",overflowY:"hidden"}}>
                 <Header/>
                 <HomeSlider/>
                 <Services/>

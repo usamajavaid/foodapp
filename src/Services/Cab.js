@@ -13,24 +13,35 @@ class Cab extends Component {
         return (
             <div>
                 <Cabheader/>
-                <div class="cab-text-block">
+                <div className="cab-text-block">
                     <h1 id="wraper-heading">Everyday life, made simple.</h1>
                     <p id="wraper-paragrph" style={{marginBottom:"0px"}}>
                         Ride, order food, shop, pay or become a Captain.
                         Careem is a hassle-free, one stop solution for your
                         daily needs.
                     </p>
+                    <div className="flex social-btns">
+                        <a className="app-btn blu flex vert" href="http:apple.com">
+                            <i className="fa fa-apple" aria-hidden="true"></i>
+                            <p>Available on <br/> <span class="big-txt">App Store</span></p>
+                        </a>
+
+                        <a className="app-btn blu flex vert" href="http:google.com">
+                            <i className="fa fa-play" aria-hidden="true"></i>
+                            <p>Get it on <br/> <span class="big-txt">GooglePlay</span></p>
+                        </a>
+                    </div>
                 </div>
                 <div className="cab-bg-card">
                     <img src={Cabbackground} alt="" id="cab-bg-img"/>
                 </div>
-                <div className="container">
+                <div className="container" id="app-icon-portion">
                     <div className="row">
                         <div id="h1-style"className="col-lg-12" style={{textAlign:"center",color:"black",fontWeight:"700"}}>
                             One app for everyday needs
                         </div>
                     </div>
-                    <div className="row" style={{marginTop:"50px"}}>
+                    <div className="row" id="products-icon-portion">
                         <div className="col-lg-3 col-md-3 col-sm-3">
                            <div className="functionality-box">
                                 <img src={Burgericon} id="cab-icon-style" />
