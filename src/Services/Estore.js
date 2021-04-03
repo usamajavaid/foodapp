@@ -186,12 +186,6 @@ class Estore extends Component {
                     </div>
                 </section>
 
-
-
-                {/* <!--==========================================
-                =            All Category Section            =
-                ===========================================--> */}
-
                 <section class=" section">
                     
                     <div class="container">
