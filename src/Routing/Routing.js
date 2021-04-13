@@ -12,10 +12,17 @@ import Cab from '../Services/Cab';
 import Estore from '../Services/Estore';
 import Signup from '../ReusableComponents/Signup';
 import Foodgallery from '../SubComponents/Foodgallery';
+import Fruitlist from '../SubComponents/Listoffruits';
+import Products from '../Components/Products/Products';
+import CartValue from '../SubComponents/Cartvalue';
+import Checkout from '../Components/CheckoutForm/Checkout/Checkout';
 class Routing extends Component {
     render() {
+        
         return (
+            
             <React.Fragment>
+                
             {
                 <Router history={history}>
                     <Switch>
@@ -74,6 +81,26 @@ class Routing extends Component {
                             exact
                             path="/SubComponents/Foodgallery" 
                             render={props=><Foodgallery {...props}/>}
+                        />
+                        <Route 
+                            exact
+                            path="/SubComponents/Listoffruits" 
+                            render={props=><Fruitlist {...props}/>}
+                        />
+                        <Route 
+                            exact
+                            path="/Components/Products/Products" 
+                            render={props=><Products {...props}/>}
+                        />
+                        <Route 
+                            exact
+                            path="/SubComponents/Cartvalue" 
+                            render={props=><CartValue {...props}/>}
+                        />
+                        <Route 
+                            exact
+                            path="/Components/CheckoutForm/Checkout/Checkout" 
+                            render={props=><Checkout {...props}/>}
                         />
                         
                     </Switch>

@@ -87,7 +87,7 @@ class Estore extends Component {
                                 <div class="product-item bg-light">
                                     <div class="card">
                                         <div class="thumb-content">
-                                            <a href="single.html">
+                                            <a href="/SubComponents/Listoffruits">
                                             <img className="card-img-top img-fluid" src={Fruit} alt="Card image cap"/>
                                             </a>
                                             </div>
@@ -158,7 +158,7 @@ class Estore extends Component {
                                             </a>
                                             </div>
                                         <div class="card-body">
-                                            <h4 class="card-title"><a href="single.html">Buy pure Flour</a></h4>
+                                            <h4 class="card-title"><a href="">Buy pure Flour</a></h4>
                                             <ul class="list-inline product-meta">
                                                 <li class="list-inline-item">
                                                     <a href="single.html"><i class="fa fa-folder-open-o"></i>Digital</a>
