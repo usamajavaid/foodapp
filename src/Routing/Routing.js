@@ -15,7 +15,8 @@ import Foodgallery from '../SubComponents/Foodgallery';
 import Fruitlist from '../SubComponents/Listoffruits';
 import Products from '../Components/Products/Products';
 import CartValue from '../SubComponents/Cartvalue';
-import Checkout from '../Components/CheckoutForm/Checkout/Checkout';
+import CheckoutValue from '../SubComponents/checkoutvalu';
+import Addressform from '../Components/CheckoutForm/AddressForm';
 class Routing extends Component {
     render() {
         
@@ -99,10 +100,14 @@ class Routing extends Component {
                         />
                         <Route 
                             exact
-                            path="/Components/CheckoutForm/Checkout/Checkout" 
-                            render={props=><Checkout {...props}/>}
+                            path="/SubComponents/checkoutvalu" 
+                            render={props=><CheckoutValue {...props}/>}
                         />
-                        
+                        <Route 
+                            exact
+                            path="/Components/CheckoutForm/AddressForm" 
+                            render={props=><Addressform {...props}/>}
+                        />
                     </Switch>
             </Router> 
             }
