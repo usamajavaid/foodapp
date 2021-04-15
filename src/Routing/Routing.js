@@ -13,10 +13,6 @@ import Estore from '../Services/Estore';
 import Signup from '../ReusableComponents/Signup';
 import Foodgallery from '../SubComponents/Foodgallery';
 import Fruitlist from '../SubComponents/Listoffruits';
-import Products from '../Components/Products/Products';
-import CartValue from '../SubComponents/Cartvalue';
-import CheckoutValue from '../SubComponents/checkoutvalu';
-import Addressform from '../Components/CheckoutForm/AddressForm';
 class Routing extends Component {
     render() {
         
@@ -88,26 +84,7 @@ class Routing extends Component {
                             path="/SubComponents/Listoffruits" 
                             render={props=><Fruitlist {...props}/>}
                         />
-                        <Route 
-                            exact
-                            path="/Components/Products/Products" 
-                            render={props=><Products {...props}/>}
-                        />
-                        <Route 
-                            exact
-                            path="/SubComponents/Cartvalue" 
-                            render={props=><CartValue {...props}/>}
-                        />
-                        <Route 
-                            exact
-                            path="/SubComponents/checkoutvalu" 
-                            render={props=><CheckoutValue {...props}/>}
-                        />
-                        <Route 
-                            exact
-                            path="/Components/CheckoutForm/AddressForm" 
-                            render={props=><Addressform {...props}/>}
-                        />
+                        
                     </Switch>
             </Router> 
             }
