@@ -40,7 +40,7 @@ class Menu extends Component {
 							<div class="row">
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-										<img src={Menupic1} class="img-fluid" alt="Image"/>
+										<img src={Menupic1} class="img-fluid" alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -51,7 +51,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-										<img src={Menupic2} class="img-fluid" alt="Image"/>
+										<img src={Menupic2} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -62,7 +62,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-                                    <img src={Menupic3} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic3} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -73,7 +73,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic4} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic4} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -84,7 +84,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic5} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic5} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -95,7 +95,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic6} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic6} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -106,7 +106,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic7} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic7} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -117,7 +117,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic8} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic8} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -128,7 +128,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic9} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic9} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -143,7 +143,7 @@ class Menu extends Component {
 							<div class="row">
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-                                    <img src={Menupic1} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic1} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -154,7 +154,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-                                    <img src={Menupic2} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic2} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -165,7 +165,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-                                    <img src={Menupic3} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic3} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Drinks 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -180,7 +180,7 @@ class Menu extends Component {
 							<div class="row">
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic4} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic4} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -191,7 +191,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic5} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic5} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -202,7 +202,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-                                    <img src={Menupic6} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic6} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Lunch 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -216,7 +216,7 @@ class Menu extends Component {
 							<div class="row">
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic7} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic7} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 1</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -227,7 +227,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic8} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic8} class="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 2</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
@@ -238,7 +238,7 @@ class Menu extends Component {
 								
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
-                                    <img src={Menupic9} class="img-fluid" alt="Image"/>
+                                    <img src={Menupic9} className="img-fluid"  alt="food"/>
 										<div class="why-text">
 											<h4>Special Dinner 3</h4>
 											<p>Sed id magna vitae eros sagittis euismod.</p>
