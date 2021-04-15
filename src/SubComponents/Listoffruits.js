@@ -31,7 +31,7 @@ function Listoffruits() {
     }
   };
   return (
-    <div className="App">
+    <div className="App" style={{overflowX:"hidden"}}>
       <Header countCartItems={cartItems.length}></Header>
       <div className="row">
         <Main products={products} onAdd={onAdd}></Main>

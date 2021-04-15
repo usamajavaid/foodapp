@@ -7,7 +7,7 @@ export default function Basket(props) {
   const shippingPrice = itemsPrice > 2000 ? 0 : 20;
   const totalPrice = itemsPrice + taxPrice + shippingPrice;
   return (
-    <aside className="block col-2" style={{marginRight:"100px"}}>
+    <aside className="block col-2" id="shoping-cart-items">
       <h2>Cart Items</h2>
       <div>
         {cartItems.length === 0 && <div>Cart is empty</div>}
@@ -23,8 +23,8 @@ export default function Basket(props) {
               </button>
             </div>
 
-            <div className="col-2 text-right" style={{marginRight:"50px"}}>
-              {item.qty} x ${item.price.toFixed(2)}
+            <div className="col-2 text-right">
+              {item.qty}x <br></br><br></br>${item.price.toFixed(2)}
             </div>
           </div>
         ))}
@@ -32,22 +32,22 @@ export default function Basket(props) {
         {cartItems.length !== 0 && (
           <>
             <hr></hr>
-            <div className="row" style={{marginRight:"50px"}}>
+            <div className="row" >
               <div className="col-2">Items Price</div>
               <div className="col-1 text-right">${itemsPrice.toFixed(2)}</div>
             </div>
-            <div className="row" style={{marginRight:"50px"}}>
+            <div className="row" >
               <div className="col-2">Tax Price</div>
               <div className="col-1 text-right">${taxPrice.toFixed(2)}</div>
             </div>
-            <div className="row" style={{marginRight:"50px"}}>
+            <div className="row" >
               <div className="col-2">Shipping Price</div>
               <div className="col-1 text-right">
                 ${shippingPrice.toFixed(2)}
               </div>
             </div>
 
-            <div className="row" style={{marginRight:"50px"}}>
+            <div className="row"style={{justifyContent:"right"}}>
               <div className="col-2">
                 <strong>Total Price</strong>
               </div>
@@ -56,8 +56,8 @@ export default function Basket(props) {
               </div>
             </div>
             <hr />
-            <div className="row" >
-              <button onClick={() => alert('Implement Checkout!')}>
+            <div className="row" style={{justifyContent:"center"}}>
+              <button id="add-cart-btn" onClick={() => alert('Implement Checkout!')}>
                 Checkout
               </button>
             </div>

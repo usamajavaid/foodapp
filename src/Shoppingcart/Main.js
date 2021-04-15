@@ -4,14 +4,21 @@ import Product from './Product';
 export default function Main(props) {
   const { products, onAdd } = props;
   return (
-    <main className="block col-2" style={{marginLeft:"200px"}}>
-      <h2>Products</h2>
+    <div className="container" id="shooping-products">
       <div className="row">
+        <div className="col-lg-12">
+          <h2>Products</h2>
+          <div className="row">
         {products.map((product) => (
           <Product key={product.id} product={product} onAdd={onAdd}></Product>
         ))}
         
       </div>
-    </main>
+        </div>
+      </div>
+    </div>
+    // <main className="block col-2" style={{marginLeft:"200px"}}>
+      
+    // </main>
   );
 }
